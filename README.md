@@ -1,6 +1,6 @@
 # CallingCard-pipeline-V2
 
-This resource provides the R code to reproduce key results described in Kinker, G.S., et al. Pan-cancer single-cell RNA-seq identifies recurring programs of cellular heterogeneity. Nat Genet 52, 1208–1218 (2020).
+This resource provides the R code to reproduce key results described in N Kfoury*, Z Qi* (*=equal contribution) et al. Brd4-bound enhancers drive cell intrinsic sex differences in glioblastoma. (2021) Proceedings of the National Academy of Sciences (PNAS) 118 (16).
 
 The analyses are divided into 6 main modules:
 1. Identifying discrete and continuous patterns of expression heterogeneity within cell lines and human tumors.
