@@ -1,4 +1,4 @@
-# CallingCard-seq pipelineV2 (python + bash)
+# CallingCard-seq pipelineV2 (pythonV3.6 + bash)
 
 This resource provides the python code to reproduce key results described in N Kfoury*, Z Qi* (* equal contribution) et al. Brd4-bound enhancers drive cell intrinsic sex differences in glioblastoma. (2021) Proceedings of the National Academy of Sciences (PNAS) 118 (16).
 
