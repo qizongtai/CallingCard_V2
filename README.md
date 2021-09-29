@@ -4,7 +4,7 @@ This resource provides the python code to reproduce key results described in N K
 
 # Disclaimer
 
-This is designed for users of the HTCF cluster at Washington University in St. Louis. No guarantees are made about other systems, setups, configurations, etc. 
+The pipeline has been tailored for the Washington University HTCF computing environment (https://htcf.wustl.edu/docs/) which uses the slurm queueing system (https://slurm.schedmd.com/tutorials.html).No guarantees are made about other systems, setups, configurations, etc. 
 
 # Prerequisites
 
