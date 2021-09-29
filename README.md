@@ -8,7 +8,7 @@ This is designed for users of the HTCF cluster at Washington University in St. L
 
 # Prerequisites
 
-The scripts in this folder require `python3`. If this is not your default `python`, change all instance of `python` in `bulkRNACallingCards.sh` to `python3`. In addition, you will need to install the following modules:
+The scripts in the folder "alignment_and_quantification" require `python3`. If this is not your default `python`, change all instance of `python` in `bulkRNACallingCards.sh` to `python3`. In addition, you will need to install the following modules:
 - `pysam`
 - `numpy`
 - `pandas`
