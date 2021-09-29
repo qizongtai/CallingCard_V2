@@ -2,7 +2,7 @@
 
 This resource provides the python code to reproduce key results described in 
 
-N Kfoury*, Z Qi* (* equal contribution) et al. (2021) Brd4-bound enhancers drive cell intrinsic sex differences in glioblastoma. Proceedings of the National Academy of Sciences (PNAS) 118 (16). 
+Brd4-bound enhancers drive cell intrinsic sex differences in glioblastoma. (2021) Proceedings of the National Academy of Sciences (PNAS) 118 (16). N Kfoury*, Z Qi* (* equal contribution) et al. 
 
 URL: https://pubmed.ncbi.nlm.nih.gov/33850013/
 
