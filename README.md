@@ -1,4 +1,4 @@
-# CallingCard-seq pipelineV2 (pythonV3.6 + bash)
+# CallingCard-seq pipelineV2 (python3.6 + bash)
 
 This resource provides the python code to reproduce key results described in 
 
