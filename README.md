@@ -6,11 +6,11 @@ Brd4-bound enhancers drive cell intrinsic sex differences in glioblastoma. (2021
 
 URL: https://pubmed.ncbi.nlm.nih.gov/33850013/
 
-# Disclaimer
+## Disclaimer
 
 The pipeline has been tailored for the Washington University HTCF computing environment (https://htcf.wustl.edu/docs/) which uses the slurm queueing system (https://slurm.schedmd.com/tutorials.html). No guarantees are made about other systems, setups, configurations, etc. 
 
-# Prerequisites
+## Prerequisites
 
 The scripts in the folder "alignment_and_quantification" require `python3`. If this is not your default `python`, change all instance of `python` in `bulkRNACallingCards.sh` to `python3`. In addition, you will need to install the following modules:
 - `pysam`
@@ -28,7 +28,7 @@ The easiest way to install them is:
 To figure out which version of `python` is installed by default:
 - `python -V`
 
-# Instructions
+## Instructions
 
 Copy these files into your working directory.
 
@@ -51,11 +51,11 @@ Edit the following lines:
 - Line 42: set `genome=` to the one appropriate for your experiment. Recommend values are `hg38` for human and `mm10` for mouse
 - Line 46: set the terminal repeat sequence used in this experiment. This line should, collectively, specify the barcode and terminal repeat sequences expected at the start of every read1. Note that the barcode will be automatically stored in the `$barcode` variable. Therefore, the only thing to specify is the terminal repeat sequence expected to be found. A list of commonly-used terminal repeats is found in lines 36-39. Example: if you are expecting to find the long PB LTR sequence, you would write: `-g "^"$barcode$Long_PB_LTR`
 
-# Running the Scripts
+## Running the Scripts
 
 As a sanity check, ensure that `5prime_barcodes_R1.txt` and `manifest_R1.txt` (and `manifest_I7.txt` and `manifest_I5.txt`, if used) have the same number of lines, and that this number is equal to the range specified in line 6 (`--array=`). To run the scripts, enter `sbatch bulkRNACallingCards.sh`
 
-# Output
+## Output
 
 The major output of the scripts are aligned BAM files of insertions as well as CCF files for statistical analysis and visualization. These will be written to `../output_and_analysis/`. The `logs` folder contains stdout and stderr files from the scripts. The `*.out` files contain information from the adapter trimming step, including the number and percent of reads in the read1 file containing the correct barcode-terminal repeat combination. The `*.err` files contain mapping information, specifically what fraction of the trimmed read1's mapped to the genome.
 
