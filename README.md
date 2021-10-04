@@ -6,6 +6,7 @@ Brd4-bound enhancers drive cell intrinsic sex differences in glioblastoma. (2021
 
 URL: https://pubmed.ncbi.nlm.nih.gov/33850013/
 
+-----
 ## Disclaimer
 
 The pipeline has been tailored for the Washington University HTCF computing environment (https://htcf.wustl.edu/docs/) which uses the slurm queueing system (https://slurm.schedmd.com/tutorials.html). No guarantees are made about other systems, setups, configurations, etc. 
