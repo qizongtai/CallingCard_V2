@@ -23,7 +23,7 @@ in_file[4]="${in_dir}/SNAI2_SCC4_clean_peak_macs_win500_step250_p0001.peaks.bed"
 
 out_dir="../3_output/"
 out_file="SNAI2_peak_macs_win500_step250_p0001_length_summary.txt"
-[ -e ${out_dir}/${out_file} ] && rm ${out_dir}/${out_file}
+[ -e ${out_dir}/${out_file} ] || rm ${out_dir}/${out_file}
 for i in {1..4}; do
   awk 'BEGIN{OFS=FS="\t"} {sum += ($3-$2)} END{print sum}' ${in_file[$i]} >> ${out_dir}/${out_file}
   done
