@@ -69,7 +69,7 @@ The analyses are divided into x main modules:
 5-6. Evaluating the association between expression and genetic heterogeneity in cell lines.
 
 ## Visulization by WashU epigenome browser
-browser website: https://epigenomegateway.wustl.edu/
+browser website: https://epigenomegateway.wustl.edu/  
 A JSON file is need to upload data and create tracks on the browser. Here is the structure of a simple, two-track JSON file:
 
 Note that the URL field must specify the bgzipped file (.gz), not the tabix index file (.gz.tbi). 
