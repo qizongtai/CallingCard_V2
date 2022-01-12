@@ -67,3 +67,6 @@ The analyses are divided into x main modules:
 2. Definying heterogeneity patterns that are shared between multiple cell lines and between multiple human tumors (i.e. recurrent heterogeneous programs, RHPs).
 3-4. Comparying RHPs found in cell lines to RHPs found in human tumor samples.
 5-6. Evaluating the association between expression and genetic heterogeneity in cell lines.
+
+## visulization
+
