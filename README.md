@@ -68,5 +68,16 @@ The analyses are divided into x main modules:
 3-4. Comparying RHPs found in cell lines to RHPs found in human tumor samples.
 5-6. Evaluating the association between expression and genetic heterogeneity in cell lines.
 
-## visulization
+## visulization by WashU epigenome browser
+browser website: https://epigenomegateway.wustl.edu/
+A JSON file is need to upload data and create tracks on the browser. Here is the structure of a simple, two-track JSON file:
+
+Note that the URL field must specify the bgzipped file (.gz), not the tabix index file (.gz.tbi). 
+Also note that all strings must be in quotation marks, while numerical values need not. Here, the "colorpositive" and "height" specifications are optional. To add more tracks, enclose them in braces within the brackets and separate the braces with commas. More information about supported file types and how to format them can be found at the WashU EpiGenome Browser wiki.
+Save the JSON file, either on your local computer or on the HTCF cluster in the public folder. 
+To upload data, open the appropriate reference genome in the browser, click on "Tracks", then "Custom Tracks", then "Add new tracks". If you've stored the JSON file on your computer, click on the "Datahub by upload" button, then select your JSON file. If the file is on the cluster, click "Datahub by URL link" and provide the URL to the JSON file. If everything works perfectly, your data should now be visible on the browser!
+
+
+
+
 
