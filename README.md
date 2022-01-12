@@ -68,7 +68,7 @@ The analyses are divided into x main modules:
 3-4. Comparying RHPs found in cell lines to RHPs found in human tumor samples.
 5-6. Evaluating the association between expression and genetic heterogeneity in cell lines.
 
-## visulization by WashU epigenome browser
+## Visulization by WashU epigenome browser
 browser website: https://epigenomegateway.wustl.edu/
 A JSON file is need to upload data and create tracks on the browser. Here is the structure of a simple, two-track JSON file:
 
