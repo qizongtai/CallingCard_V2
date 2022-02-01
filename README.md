@@ -70,7 +70,7 @@ The output_and_analysis output files are mainl two types:
 - Note that the URL field must specify the bgzipped file (.gz), not the tabix index file (.gz.tbi). 
 - Also note that all strings must be in quotation marks, while numerical values need not. Here, the "colorpositive" and "height" specifications are optional. To add more tracks, enclose them in braces within the brackets and separate the braces with commas. More information about supported file types and how to format them can be found at the WashU EpiGenome Browser wiki.
 - Save the JSON file, either on your local computer or on the HTCF cluster in the public folder. 
-- To upload data, open the appropriate reference genome in the browser, click on "Tracks", then "Custom Tracks", then "Add new tracks". If you've stored the JSON file on your computer, click on the "Datahub by upload" button, then select your JSON file. If the file is on the cluster, click "Datahub by URL link" and provide the URL to the JSON file. If everything works perfectly, your data should now be visible on the browser!
+- To upload data, open the appropriate reference genome in the browser, click on "Tracks", then "Custom Tracks", then "Add new tracks". If you've stored the JSON file on your computer, click on the "Datahub by upload" button, then select your JSON file. If the file is on the cluster, click "Datahub by URL link" and provide the URL to the JSON file.
 - Below are the genome browser view of the insertions of transcription factor SNAI2 in three diffrent cell lines
 ![CC_browser_view](https://user-images.githubusercontent.com/33009124/151921167-0c1e6234-33f9-46f5-a841-db1b72411ee9.png)
 
