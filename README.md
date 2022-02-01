@@ -73,6 +73,8 @@ Also note that all strings must be in quotation marks, while numerical values ne
 Save the JSON file, either on your local computer or on the HTCF cluster in the public folder. 
 To upload data, open the appropriate reference genome in the browser, click on "Tracks", then "Custom Tracks", then "Add new tracks". If you've stored the JSON file on your computer, click on the "Datahub by upload" button, then select your JSON file. If the file is on the cluster, click "Datahub by URL link" and provide the URL to the JSON file. If everything works perfectly, your data should now be visible on the browser!
 
+Below are the genome browser view of the insertions of transcription factor SNAI2 in three diffrent cell lines
+
 ![CC_browser_view](https://user-images.githubusercontent.com/33009124/151921167-0c1e6234-33f9-46f5-a841-db1b72411ee9.png)
 
 
