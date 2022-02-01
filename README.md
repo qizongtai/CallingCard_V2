@@ -58,15 +58,11 @@ As a sanity check, ensure that `5prime_barcodes_R1.txt` and `manifest_R1.txt` (a
 
 ## Output
 
-The major output of the scripts are aligned BAM files of insertions as well as CCF files for statistical analysis and visualization. These will be written to `../output_and_analysis/`. The `logs` folder contains stdout and stderr files from the scripts. The `*.out` files contain information from the adapter trimming step, including the number and percent of reads in the read1 file containing the correct barcode-terminal repeat combination. The `*.err` files contain mapping information, specifically what fraction of the trimmed read1's mapped to the genome.
+The major output of the scripts are aligned SAM files of insertions as well as CCF files for statistical analysis and visualization. These will be written to `../output_and_analysis/`. The `logs` folder contains stdout and stderr files from the scripts. The `*.out` files contain information from the adapter trimming step, including the number and percent of reads in the read1 file containing the correct barcode-terminal repeat combination. The `*.err` files contain mapping information, specifically what fraction of the trimmed read1's mapped to the genome.
 
-
-
-The analyses are divided into x main modules:
-1. Identifying discrete and continuous patterns of expression heterogeneity within cell lines and human tumors.
-2. Definying heterogeneity patterns that are shared between multiple cell lines and between multiple human tumors (i.e. recurrent heterogeneous programs, RHPs).
-3-4. Comparying RHPs found in cell lines to RHPs found in human tumor samples.
-5-6. Evaluating the association between expression and genetic heterogeneity in cell lines.
+The output_and_analysis output files are mainl two types:
+1. The aligned SAM files (*.sam).
+2. The calling card files (*.ccf) that have genomic positions for insertions in a BED format.
 
 ## Visulization by WashU Epigenome Browser
 browser website: https://epigenomegateway.wustl.edu/  
